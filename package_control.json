@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.1",
+	"packages": [
+		{
+			"name": "PHP Built-in WebServer",
+			"description": "display the console of PHP Built-in WebServer to Sublime Text 2",
+			"author": "astronaughts",
+			"homepage": "http://github.com/astronaughts/PHP-Built-in-WebServer",
+			"last_modified": "2012-08-25 22:22:22",
+			"platforms": {
+				"*": [
+					{
+						"version": "0.0.1",
+						"url": "https://github.com/astronaughts/PHP-Built-in-WebServer.git"
+					}
+				]
+			}
+		}
+	]
+}

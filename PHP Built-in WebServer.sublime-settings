@@ -1,0 +1,5 @@
+{
+    "address": "localhost",
+    "port": 8000,
+    "document_root_path": "/var/www/public_html"
+}

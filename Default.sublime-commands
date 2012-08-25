@@ -1,0 +1,6 @@
+[
+  { "caption": "PHP Built-in WebServer: Start Server", "command": "start_server" },
+  { "caption": "PHP Built-in WebServer: Stop Server", "command": "stop_server" },
+  { "caption": "PHP Built-in WebServer: Show Panel", "command": "show_panel" },
+  { "caption": "PHP Built-in WebServer: Hide Panel", "command": "hide_panel" }
+]
