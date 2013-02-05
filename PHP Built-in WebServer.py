@@ -88,9 +88,10 @@ class ServerController(object):
 
     def load_settings(self):
         s = sublime.load_settings("PHP Built-in WebServer.sublime-settings")
-        address = s.get("address")
-        port = s.get("port")
-        document_root_path = s.get("document_root_path")
+        ps = sublime.active_window().active_view().settings()
+        address = ps.get("address", s.get("address"))
+        port = ps.get("port", s.get("port"))
+        document_root_path = ps.get("document_root_path", s.get("document_root_path"))
         self.url = '%s:%i' % (address, port)
         self.cmd_array = ['php', '-S', self.url, '-t', document_root_path]
 
